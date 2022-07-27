@@ -1,0 +1,72 @@
+/* banner background color  */
+.bg-color{
+    background-color: rgb(255, 247, 250);
+}
+/* -------------
+footer style 
+----------------*/
+.footer{
+    background-color: rgb(229, 236, 240);
+    height: 400px;
+    width: 100%;
+}
+.goal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.goal h1{
+    margin: 50px 0px;
+}
+.goal-text{
+    color: black;
+}
+.secure-part{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.secure-part p{
+    color: black;
+}
+
+/* -------------------
+match schedule style
+----------------------- */
+.match{
+    border: 1px solid gray;
+    height: 250px;
+    width: 250px;
+}
+/*-------------------
+ social icon style
+--------------------- */
+.social-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icon i{
+    margin: 40px 20px;
+}
+
+/*-------------------------------------------
+media queries responsive style for mobile view
+--------------------------------------------- */
+@media only screen and (max-width: 688px){
+    
+    .footer{
+        height: 100%;
+    }
+    .secure-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+
+/*--------------------------------- 
+ media queries responsive style end
+----------------------------------- */
